@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 20px 30px;
+}
+
+.Header {
+background-color: grey;
+height: 120px;
+}
+
+.Main {
+    background-color: gray;
+    height: 450px;
+}
+
+.Footer {
+    background-color: gainsboro;
+    height: 120px;
+}
+
+.Headerlogo {
+    font-size: 35px;
+    padding: 30px 20px;
+    float: left;
+    margin-left: 20px;
+    }
+    
+    .header-list li {
+        float: left;
+        padding: 20px 40px;
+    }
+
+    .header-list {
+        float: right;
+    }
+
+    .Main-list {
+            
+    }
