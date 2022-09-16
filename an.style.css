@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
+    background-color: maroon;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
 }
 
 li {
@@ -11,29 +23,33 @@ li {
 }
 
 .Header {
-background-color: green;
+background-color: maroon;
 height: 100px;
 font-size: 40px;
 opacity: 0,7;
 }
 
 .Main {
-    background-color: burlywood;
+    background-color: maroon;
     height: 450px;
     padding: 40px 20px;
 }
 
 .Footer {
-    background-color: forestgreen;
-    height: 60px;
-    padding: 20px 40px;
+    background-color: maroon;
+   
 }
 
+.Footer-list {
+    height: 60px;
+    padding: 200x 400px;
+    float: left;
+}
 
 .headerName {
-    padding: 20px 30px;
+    padding: 20px 20px;
     float:left;
-    height: 35px;
+    height: 30px;
     padding-left: 0px;
 
 }
@@ -69,7 +85,7 @@ opacity: 0,7;
 
     .SMKN19 {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
+        font-size: 18px;
         text-align: center;
         margin-left: 0px;
     }
@@ -77,12 +93,9 @@ opacity: 0,7;
     .Logo19 {
         height: 85px;
         float: left;
-        padding: 10px 35px;
+        padding: 12px 15px;
     }
 
-    a {
-        text-decoration: none;
-    }
     
     .container {
         width: 1170px;
@@ -92,10 +105,11 @@ opacity: 0,7;
     
     .top-wrapper {
         padding: 180px 0 100px 0;
-        background-image: url(IMG_0002\ \(2\).JPG);
+        background-image: url(potosekolah.png);
         background-size: cover;
         color: yellow    ;
         text-align: center;
+        font-family: 'Roboto', sans-serif;
     }
     
     .top-wrapper h1 {
@@ -134,3 +148,63 @@ opacity: 0,7;
     .twitter {
         background-color: aqua;
     }
+
+    .kolom-koran {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    
+    .contact-form {
+    padding-top: 50px;
+    padding-left: 500px;
+    
+    }
+    
+    input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    
+    }
+    
+    input,textarea{
+        border: 1px solid #dee7ec;
+    
+    }
+    
+    .submit-contact {
+        background-color: aliceblue;
+        color: black;
+    }
+    
+    .visi h1 {
+        font-size: 40px;
+        padding-left: 600px;
+    }
+
+    .isi-visi {
+        border-style: solid;
+        padding-left: 40px;
+    }
+
+    .misi h1 {
+        font-size: 40px;
+        padding-left: 600px;
+    }
+    
+   .isi-misi {
+        border-style: solid;
+        padding-left: 20px;
+   }
+
+   .judul-koran {
+    font-size: 40px;
+    padding-left: 575px;
+    margin-top: 30px;
+   }
