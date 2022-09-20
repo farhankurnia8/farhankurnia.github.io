@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(0, 175, 88);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 20px 30px;
+}
+
+.Header {
+background-color: maroon;
+height: 100px;
+font-size: 40px;
+opacity: 0,7;
+}
+
+.Main {
+    background-color: rgb(0, 175, 88);
+    height: 400px;
+    padding: 40px 20px;
+}
+
+.Footer{
+background-color: maroon;
+height: 150px;
+font-size: 80px;
+opacity: 0,7;
+padding-bottom: 100px;
+}
+
+.Footer-name {
+    padding: 100px 20px;
+    float:left;
+    height: 30px;
+    padding-left: 0px;
+
+}
+
+.Footerr {
+    font-size: 40px;
+}
+
+.Footer-list {
+    float: left;
+    padding: 0px 20px;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 20px;
+}
+
+.headerName {
+    padding: 20px 20px;
+    float:left;
+    height: 30px;
+    padding-left: 0px;
+
+}
+    
+    .header-list li {
+        float: left;
+        padding: 0px 20px;
+        font-size: 30px;
+        padding-bottom: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .header-list {
+        float: right;
+        padding: 0px 30px;
+        height: 40px;
+        
+
+    }
+
+    .Main-list {
+        font-size: 50px;
+        color: white;
+
+    }
+
+    .Welcome {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 15%;
+
+    }
+
+    .SMKN19 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0px;
+    }
+            
+    .Logo19 {
+        height: 85px;
+        float: left;
+        padding: 12px 15px;
+    }
+
+    .Logo19-2 {
+        height: 200px;
+        float: left;
+        padding: 12px 15px;
+    }
+    
+    .container {
+        width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    
+    .top-wrapper {
+        padding: 180px 0 100px 0;
+        background-image: url(potosekolah.png);
+        background-size: cover;
+        color: yellow    ;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .top-wrapper h1 {
+        opacity: 0,7;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .top-wrapper p {
+        opacity: 0,7;
+        margin-bottom: 10px;
+    }
+    
+    .btn {
+        padding: 12px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0,7;
+        border-radius: 4px;
+    }
+    
+    .btn:hover {
+        opacity: 1;
+    }
+    
+    .signup {
+        background-color: crimson;
+    }
+    
+    .facebook {
+        background-color: blue;
+        margin-right: 10px;
+    }
+    
+    .twitter {
+        background-color: aqua;
+    }
+
+    .kolom-koran {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    
+    .contact-form {
+    padding-top: 50px;
+    padding-left: 500px;
+    
+    }
+    
+    input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    
+    }
+    
+    input,textarea{
+        border: 1px solid #dee7ec;
+    
+    }
+    
+    .submit-contact {
+        background-color: aliceblue;
+        color: black;
+    }
+    
+    .visi h1 {
+        font-size: 40px;
+        padding-left: 600px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .isi-visi {
+        border-style: solid;
+        padding-left: 40px;
+    }
+
+    .misi h1 {
+        font-size: 40px;
+        padding-left: 600px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+   .isi-misi {
+        border-style: solid;
+        padding-left: 20px;
+   }
+
+   .judul-koran {
+    font-size: 40px;
+    padding-left: 575px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+   }
