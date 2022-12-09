@@ -12,13 +12,12 @@ body {
 }
 
 
-
 /* header */
 
 .fcontainer {
     display: flex;
     width: 100%;
-    background-color: lightslategray;
+    background-color: #2d2a30;
 }
 
 .wrapper {
@@ -106,83 +105,93 @@ text-transform: capitalize;
 
 /* Main */
 
-.wrapper-main {
-    background-color: white;
-    height: 100%;
-    width: 50%;
+
+.skola {
+    margin-left: 20px;
+    height: 90vh;
+    width: 130vh;
+}
+
+.main {
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 25%;
-    border-top: inset;
-    border-color: teal;
 }
 
-    
-
-h4 {
-    font-family: sans-serif;
-    font-size: 30px;
-    font-stretch: extra-condensed;
-    margin-top: 30px;
+.deskripsi {
+    background-color: #2d2a30;
+    color: white;
+    margin-right: 10px;
+    float: right;
+    margin-left: 20px;
+    padding-bottom: 35vh;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+  
 }
 
-.kepalasekolah {
+.deskripsi h1 {
+    text-align: center;
+
+}
+
+.wp-image-144 aligncenter img {
     margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    
 }
 
-.kepalasekolah img {
-    width: 17%;
+.kirian {
+    margin-left: 14px;
+    font-family: cursive;
+    font-size: larger;
+    font-variant-caps: normal;
+    background-color: #2d2a30;
+    border-radius: 30px;
+    margin-right: 470px;
+    padding-bottom: 10px;
 }
 
-.staffmanajemen {
-    margin-bottom: 50px;
-    text-align: center;
+.kirian p {
+    margin-left: 90px;
+    margin-top: 10px;
+   color: white;
+   font-variant-caps: all-petite-caps;
 }
 
-.staffmanajemen img {
-    width: 68%;
+
+.textwidget custom-html-widget {
+    margin-left: 10px;
 }
 
-.kepalaprogram {
-    margin-bottom: 50px;
-    text-align: center;
+/*responsive*/
+
+@media only screen and (max-width: 6000px) {
+    .left {
+        display: flex;
+    }
+
+    .lg-view {
+        display: flex;
+    }
+
 }
 
-.kepalaprogram img {
-    width: 68%;
+@media only screen and (min-width: 600px){.widget-title
+    .sm-view {
+        display: block;
+    }
 }
 
-.guru {
-    margin-bottom: 50px;
-    text-align: center;
-}
 
-.guru1 {
-    width: 68%;
-}
 
-.guru2 {
-    width: 68%;
-}
 
-.tu {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.tu img {
-    width: 68%;
-    margin-bottom: 40px;
-}
+/*footer*/
 
 /* The footer is fixed to the bottom of the page */
 
 footer {
     position: fixed;
     bottom: 0;
+
 }
 
 @media (max-height:800px) {

@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="guru.css">
+    <link rel="stylesheet" href="tc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+        
 </head>
 <body>
-    
+
 <!--Header-->
 
 <div class="fcontainer">
@@ -24,8 +27,8 @@
             
             <li><a href="about.html">about</a></li>
             <li><a href="profilsmk.html">profil</a></li>
-            <li><a href="tc.html">Test Center</a></li>
-            <li><a href="#" class="active">Guru</a></li>
+            <li><a class="active" href="#">Test Center</a></li>
+            <li><a href="guru.html">Guru</a></li>
             <li><a href="web jurusan.html">kejurusan</a></li>
         </ul>
 
@@ -34,37 +37,34 @@
 
 <!--akhir header-->
 
-<main>
-    <div class="wrapper-main">
-        <div class="kepalasekolah">
-            <h4>Kepala Sekolah</h4>
-            <img src="download.jpeg">
-            <p>Drs. H. Sobirin, M.Pd</p>
+  <div class="container">
+    <div class="wrapper2">
+        <div class="header">
+            <h4>Login To Your Account</h4>
+            <p>PASTIKAN ANDA SUDAH MENGISI DATA ANDA SESUAI DENGAN NAMA DAN KELAS ANDA!!!!!</p>
         </div>
-
-        <div class="staffmanajemen">
-            <h4>Staff. Manajemen</h4>
-            <img src="sf.png">
+      <div class="title"><span>Test Center</span></div>
+      <form action="#">
+        <div class="row">
+          <i class="fas fa-user"></i>
+          <input type="email" placeholder="Email or Phone" required>
         </div>
-
-        <div class="kepalaprogram">
-            <h4>Kepala Program Keahlian:</h4>
-            <img src="spk.png">
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" required>
         </div>
-
-        <div class="guru">
-            <h4>Tenaga Pendidik / Guru:</h4>
-            <img class="guru1" src="GuruSMKn19jkt.jpg">
-            <img class="guru2" src="guru2.png">
+        <div class="pass"><a href="#">Forgot password?</a></div>
+        <div class="row button">
+          <input type="submit" value="Login">
         </div>
-
-        <div class="tu">
-            <h4>Tata Usaha:</h4>
-            <img src="TUsmkn19.jpg">
-        </div>
+        <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+        <div class="desc">
+            Setelah login pastikan nama dan kelas Anda Benar !<span class="helptooltip"><a href="#" title="Help with Setelah login pastikan nama dan kelas Anda Benar !" aria-haspopup="true" target="_blank"><img src="http://116.197.135.141/tc/theme/image.php/standard/core/1585772454/help" alt="Help with Setelah login pastikan nama dan kelas Anda Benar !" class="iconhelp" /></a></span>        </div>
+      </div>
     </div>
-</main>
-
+      </form>
+    </div>
+  </div>
 
 <!--footer-->
 
@@ -115,12 +115,6 @@
         </div>
     </div>
 </footer>
-
-
-
-
-
-
 
 </body>
 </html>
